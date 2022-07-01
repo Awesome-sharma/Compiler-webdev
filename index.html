@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Online compiler Codequotient Supercoders</title>
+</head>
+<body>
+    <div>
+      <h1 id="heading"> Online Compiler - By Ayush Sharma </h1>
+      <div  style="display:flex;padding: 5px 10px;">
+          <h2 style="flex:1;margin-right:50%"> Write your code here </h2>
+          <div style="flex:1;">
+            <label  style="font-size: large;">Choose your Language</label><br>
+            <select id="dropdown" value="Choose">
+                <option selected="" disabled="" hidden="">Select Language</option>
+                <option value="0"  class="option">python</option>
+                <option value="4"  class="option">javaScript</option>
+                <option value="77"  class="option">cpp</option>
+                <option value="8"  class="option">java</option>
+                <option value="7"  class="option">c</option>
+            </select>
+            <button id="compilebtn">Compile</button>
+          </div>
+      </div>
+      <div>
+        <textarea rows="17" placeholder="write your code here" id="codearea"></textarea>
+        <textarea rows="9" placeholder="Output will be shown here" id="outarea"></textarea>
+      </div>
+    </div>
+</body>
+<script src= "script.js"></script>
+</html>
